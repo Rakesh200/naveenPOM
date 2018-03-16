@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Crm]">
+  <test name="free CRM Test(failed)">
+    <classes>
+      <class name="PageTests.ContactPagetest">
+        <methods>
+          <include name="validateCreatnewContact" invocation-numbers="0 1 2"/>
+          <include name="verifyContact"/>
+          <include name="Setup"/>
+          <include name="Quit"/>
+        </methods>
+      </class> <!-- PageTests.ContactPagetest -->
+      <class name="PageTests.Homepagetest">
+        <methods>
+          <include name="Setup"/>
+          <include name="Quit"/>
+          <include name="ClickOnContacts"/>
+        </methods>
+      </class> <!-- PageTests.Homepagetest -->
+    </classes>
+  </test> <!-- free CRM Test(failed) -->
+</suite> <!-- Failed suite [Crm] -->

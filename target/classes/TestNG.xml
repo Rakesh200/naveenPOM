@@ -1,0 +1,9 @@
+<suite name="Crm">
+<test name="free CRM Test">
+<classes>
+<class name="PageTests.ContactPagetest"></class>
+<class name="PageTests.Homepagetest"></class>
+<class name="PageTests.Logintest"></class>
+</classes>
+</test>
+</suite>
